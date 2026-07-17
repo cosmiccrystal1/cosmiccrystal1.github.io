@@ -1,1 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Streetfight Tiers</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <header class="site-header">
+        <p class="eyebrow">Streetfight.cc</p>
+        <h1>Streetfight Tiers</h1>
+        <p id="updated" class="updated">Loading tested players...</p>
+      </header>
 
+      <section id="tier-grid" class="tier-grid" aria-live="polite"></section>
+    </main>
+
+    <template id="tier-column-template">
+      <article class="tier-column">
+        <h2></h2>
+        <ul></ul>
+      </article>
+    </template>
+
+    <script>
+      const tierGrid = document.querySelector("#tier-grid");
+      const updated = document.querySelector("#updated");
+      const template = document.querySelector("#tier-column-template");
+
+      function playerRow(player) {
+        const item = document.createElement("li");
+        item.className = "player-row";
+
+        const name = document.createElement("span");
+        name.className = "player-name";
+        name.textContent = player.username;
+
+        const tier = document.createElement("span");
+        tier.className = `tier-badge tier-${player.tier.toLowerCase()}`;
+        tier.textContent = player.tier;
+
+        item.append(name, tier);
+        return item;
+      }
+
+      function render(data) {
+        tierGrid.replaceChildren();
+        for (const [columnName, players] of Object.entries(data.columns || {})) {
+          const node = template.content.firstElementChild.cloneNode(true);
+          node.querySelector("h2").textContent = columnName;
+          const list = node.querySelector("ul");
+
+          if (!players.length) {
+            const empty = document.createElement("li");
+            empty.className = "empty-row";
+            empty.textContent = "No players yet";
+            list.append(empty);
+          } else {
+            players.forEach((player) => list.append(playerRow(player)));
+          }
+
+          tierGrid.append(node);
+        }
+
+        const generatedAt = data.generatedAt ? new Date(data.generatedAt) : null;
+        updated.textContent = generatedAt
+          ? `Last updated ${generatedAt.toLocaleString()}`
+          : "Player list loaded";
+      }
+
+      async function loadPlayers() {
+        try {
+          const response = await fetch(`players.json?ts=${Date.now()}`, { cache: "no-store" });
+          if (!response.ok) {
+            throw new Error(`HTTP ${response.status}`);
+          }
+          render(await response.json());
+        } catch (error) {
+          updated.textContent = "Could not load player list.";
+          console.error(error);
+        }
+      }
+
+      loadPlayers();
+    </script>
+  </body>
+</html>

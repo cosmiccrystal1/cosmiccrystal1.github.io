@@ -1,0 +1,12 @@
+{
+  "name": "streetfight-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "sync": "node scripts/sync-players.js"
+  },
+  "dependencies": {
+    "mysql2": "^3.11.5"
+  }
+}
