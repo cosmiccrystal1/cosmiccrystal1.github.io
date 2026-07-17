@@ -130,23 +130,24 @@ h1 {
 
 .tier-lt2,
 .tier-ht2 {
-  background: #ff7a45;
+  background: #9a9aa9;
+  color: white;
 }
 
 .tier-lt3,
 .tier-ht3 {
-  background: #e5484d;
+  background: #b45f06;
   color: white;
 }
 
 .tier-lt4,
 .tier-ht4 {
-  background: #6ea8fe;
+  background: #3c78d8;
 }
 
 .tier-lt5,
 .tier-ht5 {
-  background: #8fce89;
+  background: #a9c3e5;
 }
 
 @media (max-width: 980px) {
