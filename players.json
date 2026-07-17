@@ -1,11 +1,16 @@
 {
-  "generatedAt": "2026-07-17T20:35:57.013Z",
+  "generatedAt": "2026-07-17T21:27:30.962Z",
   "columns": {
     "Tier 1": [
       {
         "username": "CosmicCrystal",
         "uuid": "12b164eb-e68a-4415-a17f-82306216db40",
         "tier": "HT1"
+      },
+      {
+        "username": "GreyAchiever",
+        "uuid": "38c7825b-176c-41bf-b08d-c836376c4d82",
+        "tier": "LT1"
       }
     ],
     "Tier 2": [
@@ -106,11 +111,6 @@
       {
         "username": "912351234564326",
         "uuid": "c6c9a20d-35e3-48e7-af7f-2947bdf0aa64",
-        "tier": "LT4"
-      },
-      {
-        "username": "GreyAchiever",
-        "uuid": "38c7825b-176c-41bf-b08d-c836376c4d82",
         "tier": "LT4"
       },
       {
@@ -224,6 +224,11 @@
       "tier": "HT1"
     },
     {
+      "username": "GreyAchiever",
+      "uuid": "38c7825b-176c-41bf-b08d-c836376c4d82",
+      "tier": "LT1"
+    },
+    {
       "username": "Altatide",
       "uuid": "657cf910-2498-453d-8c91-71ae9ea7987e",
       "tier": "LT2"
@@ -316,11 +321,6 @@
     {
       "username": "912351234564326",
       "uuid": "c6c9a20d-35e3-48e7-af7f-2947bdf0aa64",
-      "tier": "LT4"
-    },
-    {
-      "username": "GreyAchiever",
-      "uuid": "38c7825b-176c-41bf-b08d-c836376c4d82",
       "tier": "LT4"
     },
     {
