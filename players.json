@@ -1,11 +1,427 @@
 {
-  "generatedAt": null,
+  "generatedAt": "2026-07-17T20:35:57.013Z",
   "columns": {
-    "Tier 1": [],
-    "Tier 2": [],
-    "Tier 3": [],
-    "Tier 4": [],
-    "Tier 5": []
+    "Tier 1": [
+      {
+        "username": "CosmicCrystal",
+        "uuid": "12b164eb-e68a-4415-a17f-82306216db40",
+        "tier": "HT1"
+      }
+    ],
+    "Tier 2": [
+      {
+        "username": "Altatide",
+        "uuid": "657cf910-2498-453d-8c91-71ae9ea7987e",
+        "tier": "LT2"
+      }
+    ],
+    "Tier 3": [
+      {
+        "username": "_Cherrypepsi",
+        "uuid": "52522709-069e-40c7-8abe-41af758d33c8",
+        "tier": "HT3"
+      },
+      {
+        "username": "Grmle",
+        "uuid": "251a3a65-7203-4796-bb07-65b124f3e9b8",
+        "tier": "HT3"
+      },
+      {
+        "username": "jrjrdy",
+        "uuid": "6785133e-6ff8-4c05-9e0f-bf79cd32a5bb",
+        "tier": "HT3"
+      },
+      {
+        "username": "mdlei",
+        "uuid": "f52cbf3d-f1ff-4a32-a097-8ce88cf307cc",
+        "tier": "HT3"
+      },
+      {
+        "username": "Big_Blue_dog",
+        "uuid": "829cec56-fbb1-4ae0-9fc8-ac32d7ba4b89",
+        "tier": "LT3"
+      },
+      {
+        "username": "Echo_Soul",
+        "uuid": "d253cc7f-d1b0-4863-8ef7-e883b1604b8d",
+        "tier": "LT3"
+      },
+      {
+        "username": "Giantslimer",
+        "uuid": "58dc630f-c84c-433c-8777-ecd77d33ea3f",
+        "tier": "LT3"
+      },
+      {
+        "username": "ItzBorder",
+        "uuid": "b177489c-e6cd-44b2-83fc-894764009709",
+        "tier": "LT3"
+      }
+    ],
+    "Tier 4": [
+      {
+        "username": "coolhalofreddy",
+        "uuid": "1af05b57-0650-4491-9380-29f62b4d72e2",
+        "tier": "HT4"
+      },
+      {
+        "username": "Dragondeep",
+        "uuid": "498c4fc5-288e-4da7-81dc-c635260436da",
+        "tier": "HT4"
+      },
+      {
+        "username": "EnchantedSteak44",
+        "uuid": "a2215fcb-123f-4e76-b3e7-eb38becbfe75",
+        "tier": "HT4"
+      },
+      {
+        "username": "MrCuckcoohead",
+        "uuid": "090c5ea0-7e16-4d9b-b3c5-154d0824a549",
+        "tier": "HT4"
+      },
+      {
+        "username": "MrKane305",
+        "uuid": "daabbc62-fee8-400a-bc30-a2e748801b3b",
+        "tier": "HT4"
+      },
+      {
+        "username": "MrMagu",
+        "uuid": "b44d7bc7-0a1b-44dc-ae77-be5094258e0d",
+        "tier": "HT4"
+      },
+      {
+        "username": "Nightcrawler957",
+        "uuid": "f53b24b8-3e62-469d-96a0-d6f0d3dfa4d7",
+        "tier": "HT4"
+      },
+      {
+        "username": "PigeonID",
+        "uuid": "6cc3d943-329a-4836-a0aa-fe8ffcef41c3",
+        "tier": "HT4"
+      },
+      {
+        "username": "WiniamStart",
+        "uuid": "a407955b-41a8-4e4f-9503-9fe46d31eb17",
+        "tier": "HT4"
+      },
+      {
+        "username": "912351234564326",
+        "uuid": "c6c9a20d-35e3-48e7-af7f-2947bdf0aa64",
+        "tier": "LT4"
+      },
+      {
+        "username": "GreyAchiever",
+        "uuid": "38c7825b-176c-41bf-b08d-c836376c4d82",
+        "tier": "LT4"
+      },
+      {
+        "username": "ivslser",
+        "uuid": "18e96b73-f48c-4e83-8813-cdda9c6530a4",
+        "tier": "LT4"
+      },
+      {
+        "username": "Lightnefied",
+        "uuid": "e5d3c264-67dc-4d60-9c4b-3e5dd1d0c118",
+        "tier": "LT4"
+      },
+      {
+        "username": "Lorenzodapro",
+        "uuid": "67821287-06f3-49dc-accc-140c637af6e7",
+        "tier": "LT4"
+      },
+      {
+        "username": "Thee_Jester",
+        "uuid": "afdfe5ec-e5b7-4957-ab9f-72ef10e6e9fd",
+        "tier": "LT4"
+      }
+    ],
+    "Tier 5": [
+      {
+        "username": "Arcticss_",
+        "uuid": "e046f49f-c446-43a7-9ddf-2385e37b349e",
+        "tier": "HT5"
+      },
+      {
+        "username": "pokeplam",
+        "uuid": "ba36f516-43fd-4392-bdda-502c5ebfceeb",
+        "tier": "HT5"
+      },
+      {
+        "username": "qluew",
+        "uuid": "8730259a-d1e0-427a-bde0-9d3f5f8dd482",
+        "tier": "HT5"
+      },
+      {
+        "username": "qplucid",
+        "uuid": "fe6eb1f5-74c6-4c29-ae54-762b22093c6a",
+        "tier": "HT5"
+      },
+      {
+        "username": "RydersWorld",
+        "uuid": "3b727c45-548f-4293-aff6-f7131a8397bc",
+        "tier": "HT5"
+      },
+      {
+        "username": "Snakesarescary6",
+        "uuid": "2e7467fb-1688-4a22-b0d7-e548bed78c56",
+        "tier": "HT5"
+      },
+      {
+        "username": "wint1r",
+        "uuid": "5c58232b-bfd0-452e-b549-a8021376aa6d",
+        "tier": "HT5"
+      },
+      {
+        "username": "xlaa",
+        "uuid": "f6ac8c77-9305-410f-821c-162dc9331ae8",
+        "tier": "HT5"
+      },
+      {
+        "username": "Badmansyra",
+        "uuid": "b3354af9-bf6a-4fed-adca-6a75d99aa700",
+        "tier": "LT5"
+      },
+      {
+        "username": "C0smicCabbage",
+        "uuid": "9d73bf3f-93b0-429e-9630-8c85ded16fcf",
+        "tier": "LT5"
+      },
+      {
+        "username": "forturtle09",
+        "uuid": "1a256a3a-6f0d-4294-b43e-8a45008091e7",
+        "tier": "LT5"
+      },
+      {
+        "username": "LarppFrags",
+        "uuid": "0bb9fd74-2c0e-449d-996a-09978e6846c8",
+        "tier": "LT5"
+      },
+      {
+        "username": "MrPLASMER",
+        "uuid": "7116d525-3d30-4a97-a129-5311029b98a3",
+        "tier": "LT5"
+      },
+      {
+        "username": "Napster513",
+        "uuid": "4f02048c-b814-4cd4-b973-95bb09d87402",
+        "tier": "LT5"
+      },
+      {
+        "username": "TealHammer",
+        "uuid": "78cc3528-2e4e-42ea-b914-d639e000d288",
+        "tier": "LT5"
+      },
+      {
+        "username": "yusufO1",
+        "uuid": "1cf1b736-18af-49ae-9754-683103d34cc8",
+        "tier": "LT5"
+      }
+    ]
   },
-  "players": []
+  "players": [
+    {
+      "username": "CosmicCrystal",
+      "uuid": "12b164eb-e68a-4415-a17f-82306216db40",
+      "tier": "HT1"
+    },
+    {
+      "username": "Altatide",
+      "uuid": "657cf910-2498-453d-8c91-71ae9ea7987e",
+      "tier": "LT2"
+    },
+    {
+      "username": "_Cherrypepsi",
+      "uuid": "52522709-069e-40c7-8abe-41af758d33c8",
+      "tier": "HT3"
+    },
+    {
+      "username": "Grmle",
+      "uuid": "251a3a65-7203-4796-bb07-65b124f3e9b8",
+      "tier": "HT3"
+    },
+    {
+      "username": "jrjrdy",
+      "uuid": "6785133e-6ff8-4c05-9e0f-bf79cd32a5bb",
+      "tier": "HT3"
+    },
+    {
+      "username": "mdlei",
+      "uuid": "f52cbf3d-f1ff-4a32-a097-8ce88cf307cc",
+      "tier": "HT3"
+    },
+    {
+      "username": "Big_Blue_dog",
+      "uuid": "829cec56-fbb1-4ae0-9fc8-ac32d7ba4b89",
+      "tier": "LT3"
+    },
+    {
+      "username": "Echo_Soul",
+      "uuid": "d253cc7f-d1b0-4863-8ef7-e883b1604b8d",
+      "tier": "LT3"
+    },
+    {
+      "username": "Giantslimer",
+      "uuid": "58dc630f-c84c-433c-8777-ecd77d33ea3f",
+      "tier": "LT3"
+    },
+    {
+      "username": "ItzBorder",
+      "uuid": "b177489c-e6cd-44b2-83fc-894764009709",
+      "tier": "LT3"
+    },
+    {
+      "username": "coolhalofreddy",
+      "uuid": "1af05b57-0650-4491-9380-29f62b4d72e2",
+      "tier": "HT4"
+    },
+    {
+      "username": "Dragondeep",
+      "uuid": "498c4fc5-288e-4da7-81dc-c635260436da",
+      "tier": "HT4"
+    },
+    {
+      "username": "EnchantedSteak44",
+      "uuid": "a2215fcb-123f-4e76-b3e7-eb38becbfe75",
+      "tier": "HT4"
+    },
+    {
+      "username": "MrCuckcoohead",
+      "uuid": "090c5ea0-7e16-4d9b-b3c5-154d0824a549",
+      "tier": "HT4"
+    },
+    {
+      "username": "MrKane305",
+      "uuid": "daabbc62-fee8-400a-bc30-a2e748801b3b",
+      "tier": "HT4"
+    },
+    {
+      "username": "MrMagu",
+      "uuid": "b44d7bc7-0a1b-44dc-ae77-be5094258e0d",
+      "tier": "HT4"
+    },
+    {
+      "username": "Nightcrawler957",
+      "uuid": "f53b24b8-3e62-469d-96a0-d6f0d3dfa4d7",
+      "tier": "HT4"
+    },
+    {
+      "username": "PigeonID",
+      "uuid": "6cc3d943-329a-4836-a0aa-fe8ffcef41c3",
+      "tier": "HT4"
+    },
+    {
+      "username": "WiniamStart",
+      "uuid": "a407955b-41a8-4e4f-9503-9fe46d31eb17",
+      "tier": "HT4"
+    },
+    {
+      "username": "912351234564326",
+      "uuid": "c6c9a20d-35e3-48e7-af7f-2947bdf0aa64",
+      "tier": "LT4"
+    },
+    {
+      "username": "GreyAchiever",
+      "uuid": "38c7825b-176c-41bf-b08d-c836376c4d82",
+      "tier": "LT4"
+    },
+    {
+      "username": "ivslser",
+      "uuid": "18e96b73-f48c-4e83-8813-cdda9c6530a4",
+      "tier": "LT4"
+    },
+    {
+      "username": "Lightnefied",
+      "uuid": "e5d3c264-67dc-4d60-9c4b-3e5dd1d0c118",
+      "tier": "LT4"
+    },
+    {
+      "username": "Lorenzodapro",
+      "uuid": "67821287-06f3-49dc-accc-140c637af6e7",
+      "tier": "LT4"
+    },
+    {
+      "username": "Thee_Jester",
+      "uuid": "afdfe5ec-e5b7-4957-ab9f-72ef10e6e9fd",
+      "tier": "LT4"
+    },
+    {
+      "username": "Arcticss_",
+      "uuid": "e046f49f-c446-43a7-9ddf-2385e37b349e",
+      "tier": "HT5"
+    },
+    {
+      "username": "pokeplam",
+      "uuid": "ba36f516-43fd-4392-bdda-502c5ebfceeb",
+      "tier": "HT5"
+    },
+    {
+      "username": "qluew",
+      "uuid": "8730259a-d1e0-427a-bde0-9d3f5f8dd482",
+      "tier": "HT5"
+    },
+    {
+      "username": "qplucid",
+      "uuid": "fe6eb1f5-74c6-4c29-ae54-762b22093c6a",
+      "tier": "HT5"
+    },
+    {
+      "username": "RydersWorld",
+      "uuid": "3b727c45-548f-4293-aff6-f7131a8397bc",
+      "tier": "HT5"
+    },
+    {
+      "username": "Snakesarescary6",
+      "uuid": "2e7467fb-1688-4a22-b0d7-e548bed78c56",
+      "tier": "HT5"
+    },
+    {
+      "username": "wint1r",
+      "uuid": "5c58232b-bfd0-452e-b549-a8021376aa6d",
+      "tier": "HT5"
+    },
+    {
+      "username": "xlaa",
+      "uuid": "f6ac8c77-9305-410f-821c-162dc9331ae8",
+      "tier": "HT5"
+    },
+    {
+      "username": "Badmansyra",
+      "uuid": "b3354af9-bf6a-4fed-adca-6a75d99aa700",
+      "tier": "LT5"
+    },
+    {
+      "username": "C0smicCabbage",
+      "uuid": "9d73bf3f-93b0-429e-9630-8c85ded16fcf",
+      "tier": "LT5"
+    },
+    {
+      "username": "forturtle09",
+      "uuid": "1a256a3a-6f0d-4294-b43e-8a45008091e7",
+      "tier": "LT5"
+    },
+    {
+      "username": "LarppFrags",
+      "uuid": "0bb9fd74-2c0e-449d-996a-09978e6846c8",
+      "tier": "LT5"
+    },
+    {
+      "username": "MrPLASMER",
+      "uuid": "7116d525-3d30-4a97-a129-5311029b98a3",
+      "tier": "LT5"
+    },
+    {
+      "username": "Napster513",
+      "uuid": "4f02048c-b814-4cd4-b973-95bb09d87402",
+      "tier": "LT5"
+    },
+    {
+      "username": "TealHammer",
+      "uuid": "78cc3528-2e4e-42ea-b914-d639e000d288",
+      "tier": "LT5"
+    },
+    {
+      "username": "yusufO1",
+      "uuid": "1cf1b736-18af-49ae-9754-683103d34cc8",
+      "tier": "LT5"
+    }
+  ]
 }
