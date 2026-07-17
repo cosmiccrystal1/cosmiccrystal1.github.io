@@ -11,6 +11,8 @@ const TIER_COLUMNS = {
 };
 
 const TIER_ORDER = ["HT1", "LT1", "HT2", "LT2", "HT3", "LT3", "HT4", "LT4", "HT5", "LT5"];
+const FETCH_TIMEOUT_MILLIS = 8000;
+const DB_CONNECT_TIMEOUT_MILLIS = 15000;
 
 function requiredEnv(name, fallback = "") {
   const value = process.env[name] || fallback;
@@ -38,7 +40,20 @@ async function fetchCurrentMinecraftName(uuid, fallbackName) {
     return fallbackName;
   }
 
-  const response = await fetch(`https://sessionserver.mojang.com/session/minecraft/profile/${compact}`);
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MILLIS);
+  let response;
+  try {
+    response = await fetch(`https://sessionserver.mojang.com/session/minecraft/profile/${compact}`, {
+      signal: controller.signal
+    });
+  } catch (error) {
+    console.warn(`Could not refresh username for ${uuid}: ${error.message}`);
+    return fallbackName;
+  } finally {
+    clearTimeout(timeout);
+  }
+
   if (!response.ok) {
     console.warn(`Could not refresh username for ${uuid}: HTTP ${response.status}`);
     return fallbackName;
@@ -59,78 +74,94 @@ function columnForTier(tier) {
 }
 
 async function main() {
+  const dbHost = requiredEnv("DB_HOST");
+  const dbPort = Number(requiredEnv("DB_PORT", "3306"));
+  const dbName = requiredEnv("DB_NAME");
+  console.log(`Connecting to MySQL ${dbHost}:${dbPort}/${dbName}...`);
+
   const pool = mysql.createPool({
-    host: requiredEnv("DB_HOST"),
-    port: Number(requiredEnv("DB_PORT", "3306")),
+    host: dbHost,
+    port: dbPort,
     user: requiredEnv("DB_USER"),
     password: requiredEnv("DB_PASSWORD"),
-    database: requiredEnv("DB_NAME"),
+    database: dbName,
     waitForConnections: true,
     connectionLimit: 4,
-    namedPlaceholders: true
+    namedPlaceholders: true,
+    connectTimeout: DB_CONNECT_TIMEOUT_MILLIS
   });
 
-  const [rows] = await pool.execute(`
-    SELECT discord_id, minecraft_uuid, minecraft_username, tier
-    FROM players
-    WHERE tier IS NOT NULL
-      AND minecraft_uuid IS NOT NULL
-    ORDER BY FIELD(tier, 'HT1','LT1','HT2','LT2','HT3','LT3','HT4','LT4','HT5','LT5'),
-             minecraft_username ASC
-  `);
+  try {
+    await pool.query("SELECT 1");
+    console.log("MySQL connection OK.");
 
-  const columns = emptyColumns();
-  const allPlayers = [];
+    const [rows] = await pool.execute(`
+      SELECT discord_id, minecraft_uuid, minecraft_username, tier
+      FROM players
+      WHERE tier IS NOT NULL
+        AND minecraft_uuid IS NOT NULL
+      ORDER BY FIELD(tier, 'HT1','LT1','HT2','LT2','HT3','LT3','HT4','LT4','HT5','LT5'),
+               minecraft_username ASC
+    `);
+    console.log(`Loaded ${rows.length} tested player row${rows.length === 1 ? "" : "s"} from MySQL.`);
 
-  for (const row of rows) {
-    const tier = String(row.tier || "").toUpperCase();
-    const column = columnForTier(tier);
-    if (!column) {
-      continue;
+    const columns = emptyColumns();
+    const allPlayers = [];
+
+    for (const row of rows) {
+      const tier = String(row.tier || "").toUpperCase();
+      const column = columnForTier(tier);
+      if (!column) {
+        console.warn(`Skipping ${row.minecraft_username || row.discord_id}: unknown tier ${row.tier}`);
+        continue;
+      }
+
+      const currentName = await fetchCurrentMinecraftName(row.minecraft_uuid, row.minecraft_username);
+      if (currentName && currentName !== row.minecraft_username) {
+        console.log(`Updating username ${row.minecraft_username} -> ${currentName}`);
+        await pool.execute(
+          "UPDATE players SET minecraft_username = :username, updated_at = UTC_TIMESTAMP() WHERE discord_id = :discordId",
+          { username: currentName, discordId: row.discord_id }
+        );
+      }
+
+      const player = {
+        username: currentName || row.minecraft_username,
+        uuid: dashedUuid(row.minecraft_uuid),
+        tier
+      };
+
+      columns[column].push(player);
+      allPlayers.push(player);
     }
 
-    const currentName = await fetchCurrentMinecraftName(row.minecraft_uuid, row.minecraft_username);
-    if (currentName && currentName !== row.minecraft_username) {
-      await pool.execute(
-        "UPDATE players SET minecraft_username = :username, updated_at = UTC_TIMESTAMP() WHERE discord_id = :discordId",
-        { username: currentName, discordId: row.discord_id }
-      );
+    for (const players of Object.values(columns)) {
+      players.sort((a, b) => {
+        const tierDelta = TIER_ORDER.indexOf(a.tier) - TIER_ORDER.indexOf(b.tier);
+        return tierDelta || a.username.localeCompare(b.username);
+      });
     }
 
-    const player = {
-      username: currentName || row.minecraft_username,
-      uuid: dashedUuid(row.minecraft_uuid),
-      tier
+    const output = {
+      generatedAt: new Date().toISOString(),
+      columns,
+      players: allPlayers
     };
 
-    columns[column].push(player);
-    allPlayers.push(player);
+    await fs.writeFile(
+      path.join(process.cwd(), "players.json"),
+      `${JSON.stringify(output, null, 2)}\n`,
+      "utf8"
+    );
+
+    console.log(`Synced ${allPlayers.length} tested player${allPlayers.length === 1 ? "" : "s"}.`);
+  } finally {
+    await pool.end();
   }
-
-  for (const players of Object.values(columns)) {
-    players.sort((a, b) => {
-      const tierDelta = TIER_ORDER.indexOf(a.tier) - TIER_ORDER.indexOf(b.tier);
-      return tierDelta || a.username.localeCompare(b.username);
-    });
-  }
-
-  const output = {
-    generatedAt: new Date().toISOString(),
-    columns,
-    players: allPlayers
-  };
-
-  await fs.writeFile(
-    path.join(process.cwd(), "players.json"),
-    `${JSON.stringify(output, null, 2)}\n`,
-    "utf8"
-  );
-
-  await pool.end();
-  console.log(`Synced ${allPlayers.length} tested player${allPlayers.length === 1 ? "" : "s"}.`);
 }
 
 main().catch((error) => {
+  console.error("Sync failed.");
   console.error(error);
   process.exitCode = 1;
 });
