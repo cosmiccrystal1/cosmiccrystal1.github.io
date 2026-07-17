@@ -120,8 +120,11 @@ h1 {
   font-weight: 800;
 }
 
-.tier-lt1,
 .tier-ht1 {
+  background: #ff00ff;
+}
+
+.tier-lt1 {
   background: #ffcc4d;
 }
 
