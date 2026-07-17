@@ -128,26 +128,40 @@ h1 {
   background: #ffcc4d;
 }
 
-.tier-lt2,
 .tier-ht2 {
   background: #9a9aa9;
   color: white;
 }
 
-.tier-lt3,
+.tier-lt2 {
+  background: #c3cdd0;
+  color: white;
+}
+
 .tier-ht3 {
   background: #b45f06;
   color: white;
 }
 
-.tier-lt4,
+.tier-lt3 {
+  background: #e69138;
+  color: white;
+}
+
 .tier-ht4 {
   background: #3c78d8;
 }
 
-.tier-lt5,
+.tier-lt4 {
+  background: #6d9eeb;
+}
+
 .tier-ht5 {
   background: #a9c3e5;
+}
+  
+.tier-lt5 {
+  background: #cfe2f3;
 }
 
 @media (max-width: 980px) {
