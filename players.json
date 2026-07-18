@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T20:01:50.413Z",
+  "generatedAt": "2026-07-18T20:05:14.880Z",
   "columns": {
     "Tier 1": [
       {
@@ -119,11 +119,6 @@
         "tier": "LT4"
       },
       {
-        "username": "Lightnefied",
-        "uuid": "e5d3c264-67dc-4d60-9c4b-3e5dd1d0c118",
-        "tier": "LT4"
-      },
-      {
         "username": "Lorenzodapro",
         "uuid": "67821287-06f3-49dc-accc-140c637af6e7",
         "tier": "LT4"
@@ -138,6 +133,11 @@
       {
         "username": "Arcticss_",
         "uuid": "e046f49f-c446-43a7-9ddf-2385e37b349e",
+        "tier": "HT5"
+      },
+      {
+        "username": "Lightnefied",
+        "uuid": "e5d3c264-67dc-4d60-9c4b-3e5dd1d0c118",
         "tier": "HT5"
       },
       {
@@ -334,11 +334,6 @@
       "tier": "LT4"
     },
     {
-      "username": "Lightnefied",
-      "uuid": "e5d3c264-67dc-4d60-9c4b-3e5dd1d0c118",
-      "tier": "LT4"
-    },
-    {
       "username": "Lorenzodapro",
       "uuid": "67821287-06f3-49dc-accc-140c637af6e7",
       "tier": "LT4"
@@ -351,6 +346,11 @@
     {
       "username": "Arcticss_",
       "uuid": "e046f49f-c446-43a7-9ddf-2385e37b349e",
+      "tier": "HT5"
+    },
+    {
+      "username": "Lightnefied",
+      "uuid": "e5d3c264-67dc-4d60-9c4b-3e5dd1d0c118",
       "tier": "HT5"
     },
     {
