@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T16:55:16.540Z",
+  "generatedAt": "2026-07-20T17:00:27.886Z",
   "columns": {
     "Tier 1": [
       {
@@ -37,6 +37,11 @@
         "tier": "HT3"
       },
       {
+        "username": "Archeol",
+        "uuid": "76fde223-0fad-408b-86be-ad43ac1a1264",
+        "tier": "LT3"
+      },
+      {
         "username": "Big_Blue_dog",
         "uuid": "829cec56-fbb1-4ae0-9fc8-ac32d7ba4b89",
         "tier": "LT3"
@@ -54,6 +59,11 @@
       {
         "username": "ItzBorder",
         "uuid": "b177489c-e6cd-44b2-83fc-894764009709",
+        "tier": "LT3"
+      },
+      {
+        "username": "Nightcrawler957",
+        "uuid": "f53b24b8-3e62-469d-96a0-d6f0d3dfa4d7",
         "tier": "LT3"
       }
     ],
@@ -86,11 +96,6 @@
       {
         "username": "MrMagu",
         "uuid": "b44d7bc7-0a1b-44dc-ae77-be5094258e0d",
-        "tier": "HT4"
-      },
-      {
-        "username": "Nightcrawler957",
-        "uuid": "f53b24b8-3e62-469d-96a0-d6f0d3dfa4d7",
         "tier": "HT4"
       },
       {
@@ -254,6 +259,11 @@
       "tier": "HT3"
     },
     {
+      "username": "Archeol",
+      "uuid": "76fde223-0fad-408b-86be-ad43ac1a1264",
+      "tier": "LT3"
+    },
+    {
       "username": "Big_Blue_dog",
       "uuid": "829cec56-fbb1-4ae0-9fc8-ac32d7ba4b89",
       "tier": "LT3"
@@ -271,6 +281,11 @@
     {
       "username": "ItzBorder",
       "uuid": "b177489c-e6cd-44b2-83fc-894764009709",
+      "tier": "LT3"
+    },
+    {
+      "username": "Nightcrawler957",
+      "uuid": "f53b24b8-3e62-469d-96a0-d6f0d3dfa4d7",
       "tier": "LT3"
     },
     {
@@ -301,11 +316,6 @@
     {
       "username": "MrMagu",
       "uuid": "b44d7bc7-0a1b-44dc-ae77-be5094258e0d",
-      "tier": "HT4"
-    },
-    {
-      "username": "Nightcrawler957",
-      "uuid": "f53b24b8-3e62-469d-96a0-d6f0d3dfa4d7",
       "tier": "HT4"
     },
     {
