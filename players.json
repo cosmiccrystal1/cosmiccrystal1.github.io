@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T18:35:15.407Z",
+  "generatedAt": "2026-07-20T18:40:20.441Z",
   "columns": {
     "Tier 1": [
       {
@@ -138,6 +138,11 @@
       {
         "username": "Arcticss_",
         "uuid": "e046f49f-c446-43a7-9ddf-2385e37b349e",
+        "tier": "HT5"
+      },
+      {
+        "username": "FriendlySharkk",
+        "uuid": "d744cc3b-d085-4a2f-8327-b32f8d4e2435",
         "tier": "HT5"
       },
       {
@@ -356,6 +361,11 @@
     {
       "username": "Arcticss_",
       "uuid": "e046f49f-c446-43a7-9ddf-2385e37b349e",
+      "tier": "HT5"
+    },
+    {
+      "username": "FriendlySharkk",
+      "uuid": "d744cc3b-d085-4a2f-8327-b32f8d4e2435",
       "tier": "HT5"
     },
     {
