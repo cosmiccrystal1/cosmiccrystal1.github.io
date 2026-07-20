@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T19:00:31.836Z",
+  "generatedAt": "2026-07-20T19:05:15.001Z",
   "columns": {
     "Tier 1": [
       {
@@ -19,6 +19,11 @@
       {
         "username": "_Cherrypepsi",
         "uuid": "52522709-069e-40c7-8abe-41af758d33c8",
+        "tier": "HT3"
+      },
+      {
+        "username": "Giantslimer",
+        "uuid": "58dc630f-c84c-433c-8777-ecd77d33ea3f",
         "tier": "HT3"
       },
       {
@@ -49,11 +54,6 @@
       {
         "username": "Echo_Soul",
         "uuid": "d253cc7f-d1b0-4863-8ef7-e883b1604b8d",
-        "tier": "LT3"
-      },
-      {
-        "username": "Giantslimer",
-        "uuid": "58dc630f-c84c-433c-8777-ecd77d33ea3f",
         "tier": "LT3"
       },
       {
@@ -249,6 +249,11 @@
       "tier": "HT3"
     },
     {
+      "username": "Giantslimer",
+      "uuid": "58dc630f-c84c-433c-8777-ecd77d33ea3f",
+      "tier": "HT3"
+    },
+    {
       "username": "Grmle",
       "uuid": "251a3a65-7203-4796-bb07-65b124f3e9b8",
       "tier": "HT3"
@@ -276,11 +281,6 @@
     {
       "username": "Echo_Soul",
       "uuid": "d253cc7f-d1b0-4863-8ef7-e883b1604b8d",
-      "tier": "LT3"
-    },
-    {
-      "username": "Giantslimer",
-      "uuid": "58dc630f-c84c-433c-8777-ecd77d33ea3f",
       "tier": "LT3"
     },
     {
