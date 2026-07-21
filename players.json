@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T02:00:33.320Z",
+  "generatedAt": "2026-07-21T02:05:15.195Z",
   "columns": {
     "Tier 1": [
       {
@@ -173,6 +173,11 @@
       {
         "username": "Snakesarescary6",
         "uuid": "2e7467fb-1688-4a22-b0d7-e548bed78c56",
+        "tier": "HT5"
+      },
+      {
+        "username": "TragedyMan",
+        "uuid": "61c47c27-dfb8-4928-8fa1-c5efc034a4f8",
         "tier": "HT5"
       },
       {
@@ -396,6 +401,11 @@
     {
       "username": "Snakesarescary6",
       "uuid": "2e7467fb-1688-4a22-b0d7-e548bed78c56",
+      "tier": "HT5"
+    },
+    {
+      "username": "TragedyMan",
+      "uuid": "61c47c27-dfb8-4928-8fa1-c5efc034a4f8",
       "tier": "HT5"
     },
     {
