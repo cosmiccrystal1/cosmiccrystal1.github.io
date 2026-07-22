@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T15:05:16.687Z",
+  "generatedAt": "2026-07-22T15:10:22.327Z",
   "columns": {
     "Tier 1": [
       {
@@ -64,6 +64,11 @@
       {
         "username": "Nightcrawler957",
         "uuid": "f53b24b8-3e62-469d-96a0-d6f0d3dfa4d7",
+        "tier": "LT3"
+      },
+      {
+        "username": "RealMeowzers",
+        "uuid": "32afd9cf-96fb-43f0-abbc-ec288ac35490",
         "tier": "LT3"
       }
     ],
@@ -296,6 +301,11 @@
     {
       "username": "Nightcrawler957",
       "uuid": "f53b24b8-3e62-469d-96a0-d6f0d3dfa4d7",
+      "tier": "LT3"
+    },
+    {
+      "username": "RealMeowzers",
+      "uuid": "32afd9cf-96fb-43f0-abbc-ec288ac35490",
       "tier": "LT3"
     },
     {
