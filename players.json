@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T18:40:22.023Z",
+  "generatedAt": "2026-08-10T18:45:27.019Z",
   "columns": {
     "Tier 1": [
       {
@@ -125,6 +125,11 @@
       {
         "username": "Cottonkan",
         "uuid": "05313757-c656-418c-880f-038ee2885dad",
+        "tier": "LT4"
+      },
+      {
+        "username": "estguitar",
+        "uuid": "6ae149df-84e2-4701-aa0f-bf61f9b4b0cc",
         "tier": "LT4"
       },
       {
@@ -405,6 +410,11 @@
     {
       "username": "Cottonkan",
       "uuid": "05313757-c656-418c-880f-038ee2885dad",
+      "tier": "LT4"
+    },
+    {
+      "username": "estguitar",
+      "uuid": "6ae149df-84e2-4701-aa0f-bf61f9b4b0cc",
       "tier": "LT4"
     },
     {
