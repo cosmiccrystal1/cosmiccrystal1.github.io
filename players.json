@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T18:30:27.591Z",
+  "generatedAt": "2026-08-10T18:35:23.420Z",
   "columns": {
     "Tier 1": [
       {
@@ -38,6 +38,11 @@
       {
         "username": "Archeol",
         "uuid": "76fde223-0fad-408b-86be-ad43ac1a1264",
+        "tier": "LT3"
+      },
+      {
+        "username": "Arcticss_",
+        "uuid": "e046f49f-c446-43a7-9ddf-2385e37b349e",
         "tier": "LT3"
       },
       {
@@ -157,11 +162,6 @@
       {
         "username": "839K",
         "uuid": "f6ac8c77-9305-410f-821c-162dc9331ae8",
-        "tier": "HT5"
-      },
-      {
-        "username": "Arcticss_",
-        "uuid": "e046f49f-c446-43a7-9ddf-2385e37b349e",
         "tier": "HT5"
       },
       {
@@ -323,6 +323,11 @@
       "tier": "LT3"
     },
     {
+      "username": "Arcticss_",
+      "uuid": "e046f49f-c446-43a7-9ddf-2385e37b349e",
+      "tier": "LT3"
+    },
+    {
       "username": "Big_Blue_dog",
       "uuid": "829cec56-fbb1-4ae0-9fc8-ac32d7ba4b89",
       "tier": "LT3"
@@ -435,11 +440,6 @@
     {
       "username": "839K",
       "uuid": "f6ac8c77-9305-410f-821c-162dc9331ae8",
-      "tier": "HT5"
-    },
-    {
-      "username": "Arcticss_",
-      "uuid": "e046f49f-c446-43a7-9ddf-2385e37b349e",
       "tier": "HT5"
     },
     {
