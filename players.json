@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T17:25:26.069Z",
+  "generatedAt": "2026-08-12T17:30:25.844Z",
   "columns": {
     "Tier 1": [
       {
@@ -115,6 +115,11 @@
       {
         "username": "MrMagu",
         "uuid": "b44d7bc7-0a1b-44dc-ae77-be5094258e0d",
+        "tier": "HT4"
+      },
+      {
+        "username": "obamaOblock",
+        "uuid": "b74a9a5c-aaf3-4034-b8a9-756f51d3f371",
         "tier": "HT4"
       },
       {
@@ -405,6 +410,11 @@
     {
       "username": "MrMagu",
       "uuid": "b44d7bc7-0a1b-44dc-ae77-be5094258e0d",
+      "tier": "HT4"
+    },
+    {
+      "username": "obamaOblock",
+      "uuid": "b74a9a5c-aaf3-4034-b8a9-756f51d3f371",
       "tier": "HT4"
     },
     {
