@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T23:15:20.118Z",
+  "generatedAt": "2026-08-18T23:20:23.205Z",
   "columns": {
     "Tier 1": [
       {
@@ -187,6 +187,11 @@
       {
         "username": "FriendlySharkk",
         "uuid": "d744cc3b-d085-4a2f-8327-b32f8d4e2435",
+        "tier": "HT5"
+      },
+      {
+        "username": "GrayGamer13",
+        "uuid": "d7eeae80-1c4e-4367-afe0-d60b04f25a5a",
         "tier": "HT5"
       },
       {
@@ -480,6 +485,11 @@
     {
       "username": "FriendlySharkk",
       "uuid": "d744cc3b-d085-4a2f-8327-b32f8d4e2435",
+      "tier": "HT5"
+    },
+    {
+      "username": "GrayGamer13",
+      "uuid": "d7eeae80-1c4e-4367-afe0-d60b04f25a5a",
       "tier": "HT5"
     },
     {
