@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T23:15:15.839Z",
+  "generatedAt": "2026-08-26T23:20:37.810Z",
   "columns": {
     "Tier 1": [
       {
@@ -250,11 +250,6 @@
         "tier": "HT5"
       },
       {
-        "username": "_solarrose",
-        "uuid": "0bb9fd74-2c0e-449d-996a-09978e6846c8",
-        "tier": "LT5"
-      },
-      {
         "username": "Adapt4tion",
         "uuid": "17824c15-5691-456e-82c4-0b819b7827c6",
         "tier": "LT5"
@@ -287,6 +282,11 @@
       {
         "username": "Napster513",
         "uuid": "4f02048c-b814-4cd4-b973-95bb09d87402",
+        "tier": "LT5"
+      },
+      {
+        "username": "Sayorosie",
+        "uuid": "0bb9fd74-2c0e-449d-996a-09978e6846c8",
         "tier": "LT5"
       },
       {
@@ -553,7 +553,7 @@
       "tier": "HT5"
     },
     {
-      "username": "_solarrose",
+      "username": "Sayorosie",
       "uuid": "0bb9fd74-2c0e-449d-996a-09978e6846c8",
       "tier": "LT5"
     },
