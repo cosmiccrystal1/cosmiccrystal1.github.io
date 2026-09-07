@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-07T23:20:23.403Z",
+  "generatedAt": "2026-09-07T23:25:14.270Z",
   "columns": {
     "Tier 1": [
       {
         "username": "CosmicCrystal",
         "uuid": "12b164eb-e68a-4415-a17f-82306216db40",
-        "tier": "LT1"
+        "tier": "HT1"
       }
     ],
     "Tier 2": [
@@ -321,7 +321,7 @@
     {
       "username": "CosmicCrystal",
       "uuid": "12b164eb-e68a-4415-a17f-82306216db40",
-      "tier": "LT1"
+      "tier": "HT1"
     },
     {
       "username": "Nightcrawler957",
