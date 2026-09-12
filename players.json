@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T09:30:18.516Z",
+  "generatedAt": "2026-09-12T09:35:13.991Z",
   "columns": {
     "Tier 1": [
       {
@@ -144,11 +144,6 @@
         "tier": "HT4"
       },
       {
-        "username": "_snowez_",
-        "uuid": "6ae149df-84e2-4701-aa0f-bf61f9b4b0cc",
-        "tier": "LT4"
-      },
-      {
         "username": "btwmeansbytheway",
         "uuid": "2ea1aa0b-4fc5-4906-91a4-049d1a8923c7",
         "tier": "LT4"
@@ -166,6 +161,11 @@
       {
         "username": "ivslser",
         "uuid": "18e96b73-f48c-4e83-8813-cdda9c6530a4",
+        "tier": "LT4"
+      },
+      {
+        "username": "Jolene_guy",
+        "uuid": "6ae149df-84e2-4701-aa0f-bf61f9b4b0cc",
         "tier": "LT4"
       },
       {
@@ -454,7 +454,7 @@
       "tier": "HT4"
     },
     {
-      "username": "_snowez_",
+      "username": "Jolene_guy",
       "uuid": "6ae149df-84e2-4701-aa0f-bf61f9b4b0cc",
       "tier": "LT4"
     },
